@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e174e780f9689fe4a9f2033c9a99329d
+guid: 20a3aa3eface51a47a7db9acfc3a38f9
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,7 +121,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Medieval_tiles_free_2.0_0
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 376
+        width: 144
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9553ed90dd4819b4598a9ca90f4752d7
+      internalID: -1832465671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -132,7 +153,10 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Medieval_tiles_free_2.0_0: -1832465671
+      Medieval_tiles_free_2.0_1: -1394057045
+      Medieval_tiles_free_2.0_2: 237110756
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

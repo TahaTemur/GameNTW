@@ -5,9 +5,10 @@ using UnityEngine;
 public class platformMove : MonoBehaviour
 {
     public float speed;
+    public float destroy;
     void Start()
     {
-        Destroy(gameObject,4);
+        Destroy(gameObject,destroy);
     }
 
     // Update is called once per frame

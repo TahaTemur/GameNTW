@@ -6,9 +6,10 @@ public class platformSpawner : MonoBehaviour
 {
     public Character characterScript;
     public GameObject Platform;
-    public float width;
-    public float height;
+    public float maxWidth;
     public float minWidth;
+    public float maxHeight;
+    public float minHeight;
     public float time;
    
     
@@ -25,7 +26,7 @@ public class platformSpawner : MonoBehaviour
         while (!characterScript.isDead) 
         {
 
-            Instantiate(Platform, new Vector2(Random.Range(minWidth, width), height), Quaternion.identity);
+            Instantiate(Platform, new Vector2(Random.Range(minWidth, maxWidth),Random.Range(minHeight, maxHeight)), Quaternion.identity);
             yield return new WaitForSeconds(time);
         }
         
